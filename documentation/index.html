@@ -1,0 +1,315 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Attendance Management System</title>
+	
+	<meta name="description" content="An complete attendance management system application mostly work with attendance,leave,holiday,restrict employee with ip address feature.It can be use any kind of office,organization and many others on.More about 1000+ employees can manage an admin using this application.Very useful application,simple good looking user interface.">
+	<meta name="author" content="<a href="http://www.kingpabel.com"> Kingpabel </a>">
+	<meta name="copyright" content="<a href="http://www.kingpabel.com"> Kingpabel </a>">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2015-12-14T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-attendance-management-system">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#configure" title="Configure">Configure</a></li>
+			<li><a href="#registratoin" title="Registratoin">Registratoin</a></li>
+			<li><a href="#create_user" title="Create user">Create user</a></li>
+			<li><a href="#last_in" title="Last In">Last In</a></li>
+			<li><a href="#auto_punch_out_time" title="Auto Punch Out TIme">Auto Punch Out TIme</a></li>
+			<li><a href="#force_puch_in_out" title="Force Puch In Out">Force Puch In Out</a></li>
+			<li><a href="#holiday" title="Holiday">Holiday</a></li>
+			<li><a href="#leave" title="Leave">Leave</a></li>
+			<li><a href="#all_leave" title="All Leave">All Leave</a></li>
+			<li><a href="#designation" title="Designation">Designation</a></li>
+			<li><a href="#notice" title="Notice">Notice</a></li>
+			<li><a href="#live_chatting" title="Live Chatting">Live Chatting</a></li>
+			<li><a href="#summery_report" title="Summery Report">Summery Report</a></li>
+			<li><a href="#individual_report" title="Individual Report">Individual Report</a></li>
+			<li><a href="#employee_dashboard" title="Employee Dashboard">Employee Dashboard</a></li>
+			<li><a href="#employee_profile" title="Employee Profile">Employee Profile</a></li>
+			<li><a href="#employee_apply_leave" title="Employee Apply Leave">Employee Apply Leave</a></li>
+			<li><a href="#employee_all_leave" title="Employee All Leave">Employee All Leave</a></li>
+			<li><a href="#update_v3_to_v4" title="Update V3 to V4">Update V3 to V4</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright <a href="http://www.kingpabel.com"> Kingpabel </a> 2015<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Attendance Management System</h1>
+	
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 11/02/2014</li>
+	<li>latest update: 12/14/2015</li>
+	<li>by: <a href="http://www.kingpabel.com"> Kingpabel </a></li>
+	<li><a href=""></a></li>
+	<li>email: <a href="mailto:&#105;&#109;&#116;&#105;&#97;&#122;&#112;&#97;&#98;&#101;&#108;&#64;&#121;&#97;&#104;&#111;&#111;&#46;&#99;&#111;&#109;">&#105;&#109;&#116;&#105;&#97;&#122;&#112;&#97;&#98;&#101;&#108;&#64;&#121;&#97;&#104;&#111;&#111;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p></p>
+	</section>
+	
+	<section id="configure">
+	<div class="page-header"><h3>Configure</h3><hr class="notop"></div>
+<div class="alert">
+	At first collect the sql file,which is already provided.Then import it in your hosting phpmyadmin.Then just hit the projct on your browser and you will get installtion form to install easily.</div>
+<h3 style="color: rgb(51, 51, 51); font-family: 'Liberation Mono'; font-size: 13pt;">
+	<img alt="Attendance management system installation" src="assets/images/image_13.png" style="width: 376px; height: 300px;"></h3>
+<p>
+	Give your information and click install.Installation is done.</p>
+<p>
+	&nbsp;</p>
+<div class="alert alert-info">
+	If you want to change again after installation once,just go to .env file on your project root,and give your information that&#39;s it.</div>
+</section>
+<section id="registratoin">
+	<div class="page-header"><h3>Registratoin</h3><hr class="notop"></div>
+<div class="alert">
+	In landing page you found a menu <strong>Registration</strong>.Click here and give your information to create your company credential.Then it will auto login.</div>
+<p>
+	<img alt="Kingpabel Attendance Registration Image" src="assets/images/image_18.png" style="width: 500px; height: 227px;"></p>
+</section>
+<section id="create_user">
+	<div class="page-header"><h3>Create user</h3><hr class="notop"></div>
+<div class="alert">
+	After login click on <strong>create user </strong>for&nbsp;creating your user id using username and password,for all of user.You can also <strong>add ip address</strong> for their,that without that ip address user can&#39;t login.It&#39;s for security purpose.You can also set <strong>In Time</strong> for user when you update them.If a user has In Time and he/she login after that in time his/her status will automatically set <strong>late</strong>.And you will get a <strong>alert message</strong> for that.</div>
+<p>	<img alt="Kingpabel Attendance Create User" src="assets/images/image_4.png" style="width: 500px; height: 255px;"></p>
+<p>	<img alt="Kingpabel Attendance User Time" src="assets/images/image_11.png" style="width: 500px; height: 259px;"></p>
+</section>
+<section id="last_in">
+	<div class="page-header"><h3>Last In</h3><hr class="notop"></div>
+<p>	Admin can set last in time for an employee if an employee came after last in time he/she will get automitacally late for this day.</p>
+<p>	&nbsp;</p>
+<p>	<img alt="Kingpabel attendance auto punch out" src="assets/images/image_14.png" style="width: 500px; height: 200px;"></p>
+</section>
+<section id="auto_punch_out_time">
+	<div class="page-header"><h3>Auto Punch Out TIme</h3><hr class="notop"></div>
+<p>	&nbsp;</p>
+<p>	<img alt="Kingpabel attendance auto punch out" src="assets/images/image_14.png" style="width: 500px; height: 200px;"></p>
+<div class="alert">
+	Admin can set auto punch out time,like for an user set auto punch out time in 5pm.If the user work more than 5pm he will automatically punch out on 5pm.</div>
+</section>
+<section id="force_puch_in_out">
+	<div class="page-header"><h3>Force Puch In Out</h3><hr class="notop"></div>
+<div class="alert alert-info">
+	Admin can set punch In Out time for an individual employee.To get this first go to all user list then you will see a button &quot;Force Punch In/Out&quot; click this button and then will get option to set time.</div>
+<p>	&nbsp;</p>
+<p>	<img alt="Kingpabel attendance force punch in out time set" src="assets/images/image_17.png" style="width: 560px; height: 118px;"></p>
+</section>
+<section id="holiday">
+	<div class="page-header"><h3>Holiday</h3><hr class="notop"></div>
+<p>	<img alt="Kingpabel Attendance Create Holiday" src="assets/images/image_3.png" style="width: 500px; height: 258px;"></p>
+<div class="alert">
+	You can set <strong>holiday </strong>for your company after clicking <strong>Create Holiday</strong> menu.When you see attendance report it will shows that,that <strong>day was holiday</strong>.You can add and <strong>remove holiday</strong></div>
+<p>	<img alt="Kingpabel Attendance remove holiday" src="assets/images/image_9.png" style="width: 500px; height: 239px;"></p>
+</section>
+<section id="leave">
+	<div class="page-header"><h3>Leave</h3><hr class="notop"></div>
+<p>	<img alt="Kingpabel Attendance Create Leave Category" src="assets/images/image_8.png" style="width: 500px; height: 261px;"></p>
+<div class="alert">
+	You need to create some <strong>leave creategory </strong>fo your employee to apply for their leave.You can create leave category after clicking <strong>Leave Category&nbsp;</strong>.Leave category can be defined that <strong>maximun leave in a year</strong>.Employee <strong>can&#39;t cross their leave budget.</strong></div>
+</section>
+<section id="all_leave">
+	<div class="page-header"><h3>All Leave</h3><hr class="notop"></div>
+<p>	<img alt="Kingpabel Attendance All Leave" src="assets/images/image_1.png" style="width: 500px; height: 251px;"></p>
+<div class="alert">
+	You can see all leave which are <strong>applied from employee</strong>.You can <strong>grant,reject and delete</strong> them.</div>
+</section>
+<section id="designation">
+	<div class="page-header"><h3>Designation</h3><hr class="notop"></div>
+<p>	Admin can create one or more designatoin from admin panel,which can be use for a user.</p>
+<p>	&nbsp;</p>
+<p>	<img alt="Kingpabel set designation from admin panel" src="assets/images/image_19.png" style="height: 200px; width: 391px;"></p>
+<p>	Designation can be set when click on user update button.</p>
+<p>	<img alt="kingpabel attendance update designation" src="assets/images/image_14.png" style="width: 569px; height: 200px;"></p>
+<p>	&nbsp;</p>
+<p>	After set designation employee can see his designation in his account</p>
+<p>	<img alt="Kingpabel attendance user see designation" src="assets/images/image_20.png" style="width: 547px; height: 200px;"></p>
+<p>	&nbsp;</p>
+</section>
+<section id="notice">
+	<div class="page-header"><h3>Notice</h3><hr class="notop"></div>
+<p>	There is a new,most userfull feature for versoin 4.</p>
+<p>	In notice section you can set a notice from your company for all of your employee.To create a notice click on<strong> create notice</strong> button</p>
+<p>	<img alt="Kingpabel attendance create notice" src="assets/images/image_16.png" style="width: 500px; height: 236px;"></p>
+<p>	admin can create notice with most of feature of styling.</p>
+<p>	After create notice when admin click on notice board menu,admin got all notice list</p>
+<p>	<img alt="kingpabel attendance all notice list" src="assets/images/image_12.png" style="width: 500px; height: 256px;"></p>
+<p>	&nbsp;</p>
+<p>	in both employeer and employee dashboard they will get most recent notice list</p>
+</section>
+<section id="live_chatting">
+	<div class="page-header"><h3>Live Chatting</h3><hr class="notop"></div>
+<p>	This is one of the most powerfull feature of this project.Employee can chat with admin and others colliq in chat option.Admin can chat all of the employee in chat option.</p>
+<p>	<img alt="Kingpabel attendance chatting" src="assets/images/image_15.png" style="width: 500px; height: 259px;"></p>
+</section>
+<section id="summery_report">
+	<div class="page-header"><h3>Summery Report</h3><hr class="notop"></div>
+<div class="alert">
+	Admin can see all employee&#39;s <strong>summery report.</strong>After click&nbsp;<strong>All User&nbsp;</strong>you will found a date range.Using this date range you can see your all user summery report,that <strong>how many hours employee works</strong>.You can save this report as&nbsp;<strong>csv,excel,pdf,print</strong>&nbsp;.</div>
+<p>	<img alt="Kingpabel Attendance Summery Report" src="assets/images/image_10.png" style="width: 500px; height: 225px;"></p>
+</section>
+<section id="individual_report">
+	<div class="page-header"><h3>Individual Report</h3><hr class="notop"></div>
+<p>	<img alt="KIngpabel Attendance Individual Report" src="assets/images/image_7.png" style="width: 500px; height: 260px;"></p>
+<div class="alert">
+	Admin can see all employee&#39;s&nbsp;<strong>individual report.</strong>After click&nbsp;<strong>All User&nbsp;</strong>you will found a date range.Using this date range and click on user individual report button that you will see your that user <strong>individual detail report</strong>.The most facility that you can save this report as <strong>csv,excel,pdf,print</strong> them.</div>
+</section>
+<section id="employee_dashboard">
+	<div class="page-header"><h3>Employee Dashboard</h3><hr class="notop"></div>
+<p>	<img alt="Kingpabel Attendance Employee Dashboard" src="assets/images/image_6.png" style="width: 500px; height: 145px;"></p>
+<div class="alert">
+	In employee dashboard when a emplyee click <strong>punch in</strong> his time tracking will start.And when he click <strong>punch out</strong> his tracking will stop.In member activity box there is date range.Using this date range employee can see his <strong>attendance time report.</strong></div>
+<p>	<strong><img alt="Kingpabel Attendance Individual Report" src="assets/images/image_7.png" style="width: 500px; height: 260px;"></strong></p>
+</section>
+<section id="employee_profile">
+	<div class="page-header"><h3>Employee Profile</h3><hr class="notop"></div>
+<div class="alert">
+	Employee can <strong>edit his/her information and change his password</strong>.</div>
+</section>
+<section id="employee_apply_leave">
+	<div class="page-header"><h3>Employee Apply Leave</h3><hr class="notop"></div>
+<p>	<img alt="Kingpabel Attendance Apply Leave" src="assets/images/image_2.png" style="width: 500px; height: 257px;"></p>
+<div class="alert">
+	Employee can see his <strong>leave budget and can apply within this budget leave</strong>.</div>
+</section>
+<section id="employee_all_leave">
+	<div class="page-header"><h3>Employee All Leave</h3><hr class="notop"></div>
+<p>	<img alt="Kingpabel Attendance Employee Apply Leave" src="assets/images/image_5.png"  ></p>
+<div class="alert">
+	Employee can see his/her <strong>leave list with current status</strong>.Employee can save his leave report as&nbsp;<strong>csv,excel,pdf,print</strong></div>
+</section>
+<section id="update_v3_to_v4">
+	<div class="page-header"><h3>Update V3 to V4</h3><hr class="notop"></div>
+<div class="alert alert-error">
+	This Update instruction&#39;s for who are already purchase this appliaction now want to update application.Execute those line in your existing database sql.If you are new to buy you dont need anything to do.Just import the sql file</div>
+<p class="c_9">
+	&nbsp;</p>
+<div class="alert alert-success">
+	<span style="background-color: rgb(252, 248, 227);">&quot;</span><a href="http://localhost/phpmyadmin/url.php?url=http%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F5.5%2Fen%2Falter-table.html&amp;token=cfd7d2da7d97e310ac6959b848ca8260" style="text-decoration: none; color: rgb(35, 90, 129); cursor: pointer; outline: none; border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(0, 0, 0); font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);" target="mysql_doc"><span class="syntax_alpha syntax_alpha_reservedWord" style="color: rgb(153, 0, 153); text-transform: uppercase; font-weight: bold;">ALTER</span>&nbsp;<span class="syntax_alpha syntax_alpha_reservedWord" style="color: rgb(153, 0, 153); text-transform: uppercase; font-weight: bold;">TABLE</span></a><span style="color: rgb(68, 68, 68); font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">&nbsp;</span><span class="syntax_quote syntax_quote_backtick" style="color: rgb(0, 128, 0); white-space: pre; font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">`users`</span><span style="color: rgb(68, 68, 68); font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">&nbsp;</span><span class="syntax_alpha syntax_alpha_reservedWord" style="color: rgb(153, 0, 153); text-transform: uppercase; font-weight: bold; font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">ADD</span><span style="color: rgb(68, 68, 68); font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">&nbsp;</span><span class="syntax_quote syntax_quote_backtick" style="color: rgb(0, 128, 0); white-space: pre; font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">`<span style="color: rgb(0, 0, 0); font-family: sans-serif; font-size: 13.1199998855591px; font-weight: bold; white-space: nowrap; background-color: rgb(223, 223, 223);">auto_punch_out_time</span>`</span><span style="color: rgb(68, 68, 68); font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">&nbsp;</span><span class="syntax_alpha syntax_alpha_columnType" style="color: rgb(255, 153, 0); text-transform: uppercase; font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">TIME</span><span style="color: rgb(68, 68, 68); font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">&nbsp;</span><a href="http://localhost/phpmyadmin/url.php?url=http%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F5.5%2Fen%2Flogical-operators.html%23operator_not&amp;token=cfd7d2da7d97e310ac6959b848ca8260" style="text-decoration: none; color: rgb(35, 90, 129); cursor: pointer; outline: none; border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: rgb(0, 0, 0); font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);" target="mysql_doc"><span class="syntax_alpha syntax_alpha_reservedWord" style="color: rgb(153, 0, 153); text-transform: uppercase; font-weight: bold;">NOT</span></a><span style="color: rgb(68, 68, 68); font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">&nbsp;</span><span class="syntax_alpha syntax_alpha_reservedWord" style="color: rgb(153, 0, 153); text-transform: uppercase; font-weight: bold; font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">NULL</span><span style="color: rgb(68, 68, 68); font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">&nbsp;</span><span class="syntax_alpha syntax_alpha_reservedWord" style="color: rgb(153, 0, 153); text-transform: uppercase; font-weight: bold; font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">AFTER</span><span style="color: rgb(68, 68, 68); font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">&nbsp;</span><span class="syntax_quote syntax_quote_backtick" style="color: rgb(0, 128, 0); white-space: pre; font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">`id`</span><span style="color: rgb(68, 68, 68); font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">&nbsp;</span><span class="syntax_punct syntax_punct_queryend" style="color: fuchsia; font-family: Verdana, 'Segoe UI', Arial, Tahoma; font-size: 14.4320001602173px; background-color: rgb(229, 229, 229);">;</span><span style="background-color: rgb(252, 248, 227);">&quot;</span></div>
+<div class="alert alert-success">
+	<span style="background-color: rgb(255, 255, 255);">CREATE TABLE IF NOT EXISTS `designation` (</span></div>
+<div class="alert alert-success">
+	&nbsp; `id` int(10) unsigned NOT NULL AUTO_INCREMENT,</div>
+<div class="alert alert-success">
+	&nbsp; `name` varchar(50) COLLATE utf8_unicode_ci NOT NULL,</div>
+<div class="alert alert-success">
+	&nbsp; `created_by` int(11) NOT NULL,</div>
+<div class="alert alert-success">
+	&nbsp; `updated_by` int(11) NOT NULL,</div>
+<div class="alert alert-success">
+	&nbsp; `deleted_at` timestamp NULL DEFAULT NULL,</div>
+<div class="alert alert-success">
+	&nbsp; `created_at` timestamp NOT NULL DEFAULT &#39;0000-00-00 00:00:00&#39;,</div>
+<div class="alert alert-success">
+	&nbsp; `updated_at` timestamp NOT NULL DEFAULT &#39;0000-00-00 00:00:00&#39;,</div>
+<div class="alert alert-success">
+	&nbsp; `company_id` int(11) NOT NULL,</div>
+<div class="alert alert-success">
+	&nbsp; PRIMARY KEY (`id`)</div>
+<div class="alert alert-success">
+	) ENGINE=InnoDB &nbsp;DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=5 ;</div>
+<div class="alert alert-success">
+	&nbsp;</div>
+<div>
+	<div class="alert alert-success">
+		CREATE TABLE IF NOT EXISTS `messages` (</div>
+	<div class="alert alert-success">
+		&nbsp; `id` int(10) unsigned NOT NULL AUTO_INCREMENT,</div>
+	<div class="alert alert-success">
+		&nbsp; `created_by` int(11) NOT NULL,</div>
+	<div class="alert alert-success">
+		&nbsp; `updated_by` int(11) NOT NULL,</div>
+	<div class="alert alert-success">
+		&nbsp; `deleted_at` timestamp NULL DEFAULT NULL,</div>
+	<div class="alert alert-success">
+		&nbsp; `created_at` timestamp NOT NULL DEFAULT &#39;0000-00-00 00:00:00&#39;,</div>
+	<div class="alert alert-success">
+		&nbsp; `updated_at` timestamp NOT NULL DEFAULT &#39;0000-00-00 00:00:00&#39;,</div>
+	<div class="alert alert-success">
+		&nbsp; `sender_id` int(11) NOT NULL,</div>
+	<div class="alert alert-success">
+		&nbsp; `receiver_id` int(11) NOT NULL,</div>
+	<div class="alert alert-success">
+		&nbsp; `message` text COLLATE utf8_unicode_ci NOT NULL,</div>
+	<div class="alert alert-success">
+		&nbsp; `read` tinyint(1) NOT NULL,</div>
+	<div class="alert alert-success">
+		&nbsp; `company_id` int(11) NOT NULL,</div>
+	<div class="alert alert-success">
+		&nbsp; PRIMARY KEY (`id`)</div>
+	<div class="alert alert-success">
+		) ENGINE=InnoDB &nbsp;DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=114 ;</div>
+</div>
+<p>	&nbsp;</p>
+</section>
+
+	</div>
+</body>
+</html>
